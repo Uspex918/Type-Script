@@ -1,0 +1,17 @@
+const numbersArr = [1, 2, 3, 4, 5];
+const namesArr = ["Alice", "Mike", "Viktor"];
+const mixArr = ["Andrey", 5];
+mixArr[2] = 1;
+const personArr = ["Alex", 34];
+const someArr = ["1", 1];
+console.log(mixArr);
+console.log(personArr);
+const coordinates = [10, 20];
+const tupleCoordinates = [10, 20];
+const mixCoordinates = [1, "Alice", undefined];
+const mixCoordinates2 = [1, "Alice", undefined];
+console.log(coordinates);
+console.log(tupleCoordinates);
+console.log(mixCoordinates);
+console.log(typeof mixCoordinates2[0]);
+export {};
